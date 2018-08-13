@@ -6,19 +6,19 @@ var reedCollector = new Building(1, "Collector", 1, 1, 1, 1.1);
 Console.log(reeds + " " reedCollector);
 
 function buy1() {
-	reedCollector.buy(1);
+	reedCollector.buyBuilding(1);
 	document.getElementById('collectors').innerHTML = reedCollector.amount;
 	document.getElementById('collectorCost').innerHTML = reedCollector.currentCost;
 }
 
 function buy10() {
-	reedCollector.buy(10);
+	reedCollector.buyBuilding(10);
 	document.getElementById('collectors').innerHTML = reedCollector.amount;
 	document.getElementById('collectorCost').innerHTML = reedCollector.currentCost;
 }
 
 function collectReeds(number) {
-	reeds.updateAmount(number);
+	reeds.amount += number;
 	document.getElementById('reeds').innerHTML = reeds.amount;
 }
 
