@@ -1,4 +1,4 @@
-import * as Building from "./Building.js"
+import { Building } from "./Building.js"
 import { Resources } from "./Resources.js"
 
 var reeds = new Resources(1, "Reeds");
