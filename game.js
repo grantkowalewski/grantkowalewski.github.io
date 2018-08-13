@@ -2,7 +2,7 @@ import { Building } from "./Building.js"
 import { Resources } from "./Resources.js"
 
 var reeds = new Resources(1, "Reeds");
-var reedCollector = new Building(1, "Reed Collector", 1, 1, 1, 1.1);
+var reedCollector = new Building(1, "Collector", 1, 1, 1, 1.1);
 
 function buy1() {
 	reedCollector.buy(1);
