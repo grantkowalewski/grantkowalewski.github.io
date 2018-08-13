@@ -24,5 +24,5 @@ function collectReeds(number) {
 
 
 window.setInterval(function() {
-	collectReeds(reedCollector.currentRate);
+	collectReeds(1);
 }, 1000);

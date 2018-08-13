@@ -40,6 +40,6 @@ export class Building {
 	}
 
 	updateRate() {
-		this.currentRate += this.baseRate * this.amount;
+		this.currentRate = this.baseRate * this.amount;
 	}
 }
